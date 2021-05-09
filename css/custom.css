@@ -1,5 +1,5 @@
 .dogeprice {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 th,
@@ -20,4 +20,12 @@ td {
 
 th {
     font-weight: bold;
+}
+
+.beechmeaao {
+    align-items: center;
+}
+
+.tabletwo {
+    padding-top: 1000%;
 }

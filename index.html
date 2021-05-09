@@ -19,54 +19,54 @@
         <h1 id="currentpricedoge" class="dogeprice">Right now, DOGE is worth: $</h1>
     </center>
     <hr>
-    <section align="center">
-        <h3>Invest History</h3>
+    <center>
+        <section>
+            <h3>Investment History</h3>
 
-        <!-- TABLE CONSTRUCTION-->
-        <table id='table'>
-            <!-- HEADING FORMATION -->
-            <tr>
-                <th>Date Invested</th>
-                <th>Quantity Invested</th>
-                <th>Rate</th>
-                <th>Amount Spent</th>
-            </tr>
+            <!-- TABLE CONSTRUCTION-->
 
-            <script>
-                $(document).ready(function() {
-
-                    // FETCHING DATA FROM JSON FILE
-                    $.getJSON("./assets/data.json",
-                        function(data) {
-                            var student = '';
-
-                            // ITERATING THROUGH OBJECTS
-                            $.each(data, function(key, value) {
-
-                                //CONSTRUCTION OF ROWS HAVING
-                                // DATA FROM JSON OBJECT
-                                student += '<tr>';
-                                student += '<td>' +
-                                    value.date + '</td>';
-
-                                student += '<td>' +
-                                    value.NoOfProblems + '</td>';
-
-                                student += '<td>' +
-                                    value.TotalScore + '</td>';
-
-                                student += '<td>' +
-                                    value.Articles + '</td>';
-
-                                student += '</tr>';
-                            });
-
-                            //INSERTING ROWS INTO TABLE 
-                            $('#table').append(student);
-                        });
-                });
-            </script>
-    </section>
+            <table id='table'>
+            </table>
+            <br>
+            <hr><br>
+            <table id='tabletwo' class="tabletwo">
+                <tr>
+                    <th>Total Amount Invested to Date</th>
+                </tr>
+                <tr>
+                    <th id='totalamt'>$</th>
+                </tr>
+            </table>
+            <br>
+            <table id='tablethree' class="tabletwo">
+                <tr>
+                    <th>Total Dogecoins Owned</th>
+                </tr>
+                <tr>
+                    <th id='totaldc'>$</th>
+                </tr>
+            </table>
+            <br>
+            <table id='tablefour' class="tabletwo">
+                <tr>
+                    <th>Average Rate of Dogecoin</th>
+                </tr>
+                <tr>
+                    <th id='avgrate'>$</th>
+                </tr>
+            </table>
+            <br>
+            <hr>
+            <table id='tablefive' class="tabletwo">
+                <tr>
+                    <th>Profit/Loss</th>
+                </tr>
+                <tr>
+                    <th id='plfield'>$</th>
+                </tr>
+            </table>
+        </section>
+    </center>
     <script src="./js/js.js"></script>
 </body>
 
