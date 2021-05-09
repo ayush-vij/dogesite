@@ -1,0 +1,37 @@
+[{
+        "Date": "Apr 15 2021",
+        "Qty bought": 93,
+        "Rate": 0.268817204,
+        "Spent Amount": 25
+    },
+    {
+        "Date": "Apr 15 2021",
+        "Qty bought": 17,
+        "Rate": 0.270588235,
+        "Spent Amount": 4.6
+    },
+    {
+        "Date": "Apr 16 2021",
+        "Qty bought": 150,
+        "Rate": 0.34,
+        "Spent Amount": 51
+    },
+    {
+        "Date": "Apr 21 2021",
+        "Qty bought": 141,
+        "Rate": 0.340567376,
+        "Spent Amount": 48.02
+    },
+    {
+        "Date": "May 1 2021",
+        "Qty bought": 26,
+        "Rate": 0.368461538,
+        "Spent Amount": 9.58
+    },
+    {
+        "Date": "May 4 2021",
+        "Qty bought": 13,
+        "Rate": 0.689230769,
+        "Spent Amount": 8.96
+    }
+]
